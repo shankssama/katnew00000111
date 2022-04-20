@@ -57,12 +57,12 @@
       "required": false
     },
     "EXTERNAL_REPO": {
-      "description": "To install external plugins. if you set it to no then external plugins will not install",
+      "description": "To install external plugins. Set it yes if you are deploying by this repo else won't work",
       "value": "yes",
       "required": true 
     },
     "BADCAT": {
-      "description": "set yes to install 18+ plugins.",
+      "description": "Its mandatory to set yes to install 18+ plugins specially for this repo.",
       "value": "yes",
       "required": true
     }
